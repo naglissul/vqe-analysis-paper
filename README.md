@@ -20,10 +20,12 @@ The paper is (will be) accessible on eLABa platform: [here (will be)](./)
 conda deactivate
 python3 -m venv qiskit-env
 source qiskit-env/bin/activate
-pip install -r qiskit-requirements.txt
+pip install --upgrade pip
+pip install -r requirements.txt
 deactivate
 ```
 
 ```bash
 python -m venv tequila-env
+pip install -r tequila-requirements.txt
 ```

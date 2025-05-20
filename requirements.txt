@@ -1,0 +1,7 @@
+qiskit==1.4.3 # Degraded
+qiskit-nature==0.7.2 # Latest
+ipykernel==6.29.5 # Latest
+matplotlib==3.10.3 # Latest
+qiskit-ibm-runtime== 0.39.0 # Latest
+pyscf== 2.9.0 # Latest
+pylatexenc== 2.10 # Latest

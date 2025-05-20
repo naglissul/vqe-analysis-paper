@@ -1,8 +1,0 @@
-qiskit<1.0.0
-qiskit-nature<1.0.0
-qiskit-ibm-runtime<0.15
-qiskit-aer
-pyscf
-matplotlib
-pylatexenc
-ipykernel
