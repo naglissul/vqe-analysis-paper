@@ -1,0 +1,886 @@
+MADNESS runtime initialized with 11 threads in the pool and affinity -1 -1 -1
+starting at time 0.1
+
+--------------------------------------------
+   MADNESS 0.10.1 multiresolution suite
+--------------------------------------------
+
+   number of processors ... 1
+    processor frequency ... 1.996243e+09
+            host system ... Linux
+          configured by ... 
+          configured on ... qalg027
+          configured at ... 2023-06-23T08:58:21
+                    CXX ... /home/jsk/anaconda3/envs/madtequila-recipe/conda-bld/madtequila_1687503476263/_build_env/bin/x86_64-conda-linux-gnu-c++
+               CXXFLAGS ... -O3 -DNDEBUG -std=c++17
+             tuning for ... default
+                    MPI ... stubbed out
+ multi-threaded runtime ... MADNESS ThreadPool
+                   BLAS ... Intel MKL 15196 15196 MFLOP/s
+               compiled ... 08:59:46  on  Jun 23 2023
+
+
+-------------------------------------------------------------------------------------
+SOLVING MRA-PNO-F12 as described in 
+J.S. Kottmann, F.A. Bischoff, E.F. Valeev
+Direct determination of optimal pair-natural orbitals in a real-space representation:
+the second-order Møller-Plesset energy
+Journal of Chemical Physics ... 2020
+-------------------------------------------------------------------------------------
+
+
+This script will run PNO-MP2 and print out tensors in binary
+Call as: pno_integrals inputfile
+input is input
+ignoring unknown parameter in input file:  ncf
+              prefix  mad        # default   prefixes your output/restart/json/plot/etc files
+              charge  0.0000e+00 # defined   total molecular charge
+                  xc  hf         # defined   XC input line
+               smear  0.0000e+00 # default   smearing parameter
+               econv  1.0000e-04 # defined   energy convergence
+               dconv  5.0000e-04 # defined   density convergence
+convergence_criteria  [bsh_residual, total_energy] # default   possible values are: bsh_residual, total_energy, 
+                                 #                             each_energy, density
+                   k  7          # defined   polynomial order
+                   l  5.1512e+01 # derived   user coordinates box size
+               deriv  abgv       # default   derivative method                       [abgv, bspline, ble]
+           dft_deriv  abgv       # default   derivative method for gga               [abgv, bspline, ble]
+                                 #           potentials
+             maxrotn  2.5000e-01 # default   step restriction used in autoshift algorithm
+             nvalpha  0          # default   number of alpha virtuals to compute
+              nvbeta  0          # default   number of beta virtuals to compute
+               nopen  0          # default   number of unpaired electrons = nalpha-nbeta
+             maxiter  25         # default   maximum number of iterations
+                 nio  1          # default   no. of io servers to use
+     spin_restricted  true       # default   true if spin restricted
+              plotlo  0          # default   range of MOs to print (for both spins if polarized
+              plothi  -1         # default   range of MOs to print (for both spins if polarized
+            plotdens  false      # default   If true print the density at convergence
+            plotcoul  false      # default   If true plot the total coulomb potential at convergence
+            localize  boys       # defined   localization method                     [pm, boys, new, canon]
+          pointgroup  c1         # derived   use point (sub) group symmetry if       [c1, c2, ci, cs, c2v, c2h, d2, d2h]
+                                 #           not localized
+             restart  false      # default   if true restart from orbitals on disk
+           restartao  false      # default   if true restart from orbitals projected into AO basis (STO3G) on disk
+          no_compute  false      # default   if true use orbitals on disk, set value to computed
+                save  true       # default   if true save orbitals to disk
+              maxsub  10         # default   size of iterative subspace ... set to 0 or 1 to disable
+        orbitalshift  0.0000e+00 # default   scf orbital shift: shift the occ orbitals to lower energies
+            npt_plot  101        # default   no. of points to use in each dim for plots
+           plot_cell  []         # default   lo hi in each dimension for plotting (default is all space)
+             aobasis  6-31g      # derived   AO basis used for initial guess (6-31gss, 6-31g, 3-21g, sto-6g, sto-3g)
+         derivatives  false      # default   if true calculate nuclear derivatives
+              dipole  false      # default   if true calculate dipole moment
+      conv_only_dens  false      # default   if true remove bsh_residual from convergence criteria (deprecated)
+            psp_calc  false      # default   pseudopotential calculation for all atoms
+            pcm_data  none       # default   do a PCM (solvent) calculation
+             ac_data  none       # default   do a calculation with asymptotic correction (see ACParameters class in 
+                                 #           chem/AC.h for details)
+             pure_ae  true       # default   pure all electron calculation with no pseudo-atoms
+         print_level  3          # default   0: no output; 1: final energy; 2: iterations; 3: timings; 10: debug
+ molecular_structure  inputfile  # default   where to read the molecule from: inputfile or name from the library
+              nalpha  1          # derived   number of alpha spin electrons
+               nbeta  1          # derived   number of beta  spin electrons
+           nmo_alpha  1          # derived   number of alpha spin molecular orbitals
+            nmo_beta  1          # derived   number of beta spin molecular orbitals
+                  lo  9.1626e-03 # derived   smallest length scale we need to resolve
+            protocol  [1.0000e-04, 1.0000e-06] # derived   calculation protocol
+                gopt  false      # default   geometry optimizer
+                gtol  1.0000e-04 # default   geometry tolerance
+               gtest  false      # default   geometry tolerance
+                gval  1.0000e-05 # default   value precision
+               gprec  1.0000e-04 # default   gradient precision
+            gmaxiter  20         # default   optimization maxiter
+    ginitial_hessian  false      # default   compute inital hessian for optimization
+              algopt  bfgs       # default   algorithm used for optimization         [bfgs, cg]
+           nv_factor  1          # default   factor to multiply number of virtual orbitals with when automatically 
+                                 #           decreasing nvirt
+           vnucextra  2          # default   load balance parameter for nuclear pot
+        loadbalparts  2          # default   ??
+              nwfile  none       # default   Base name of nwchem output files (.out and .movecs extensions) to read 
+                                 #           from
+                 ncf  (none,1.0000e+00) # defined   nuclear correlation factor
+             hessian  false      # default   compute the hessian matrix
+           read_cphf  false      # default   read the converged orbital response for nuclear displacements from file
+        restart_cphf  false      # default   read the guess orbital response for nuclear displacements from file
+      purify_hessian  false      # default   symmetrize the hessian matrix based on atomic charges
+
+Solving NDIM= 3  with thresh 1.000000e-04     k 7    conv 5.000000e-04 
+
+timer:     Project vnuclear     0.05s     0.05s
+constructed nuclear correlation factor of the form
+    R   =  1.000000e+00
+with eprec  1.000000e-06
+which means it's (nearly) a conventional calculation
+
+timer:                 reproject ncf    0.29s 0.29s
+timer:        guess density     0.05s     0.05s
+timer:   guess Coulomb potn     0.22s     0.22s
+timer:       guess lda potn     0.03s     0.03s
+timer:        guess overlap     0.01s     0.01s
+timer:    KEmat reconstruct     0.00s     0.00s
+timer:  KEmat differentiate     0.03s     0.03s
+timer:       KEmat compress     0.01s     0.01s
+timer: KEmat inner products     0.02s     0.02s
+timer:     guess Kinet potn     0.06s     0.06s
+timer:           guess fock     0.03s     0.03s
+timer:      guess eigen sol     0.00s     0.00s
+timer: guess orbital groupi     0.00s     0.00s
+
+starting protocol at time     1.1s
+precision steps  1.000000e-04  -->  1.000000e-04
+protocol: thresh 1.000000e-04 econv  1.000000e-04 dconv 5.000000e-04
+
+Solving NDIM= 3  with thresh 1.000000e-04     k 7    conv 5.000000e-04 
+
+timer:   initialize Coulomb operator    0.18s 0.18s
+timer:         initialize K operator    0.04s 0.04s
+completed task   0 after    0.0s at time    1.4s
+completed task   1 after    0.1s at time    1.6s
+cloud storing cpu time 0.0
+cloud replication cpu time 0.0
+cloud reading cpu time 0.0 
+cloud cache stores     4
+cloud cache loads      4
+completed taskqueue after     0.1s at time  1.6s
+ total cpu time / per world   0.1s  0.1s
+timer:                 compute Knemo    0.12s 0.12s
+timer:      compute Unemo 0.00296444    0.02s 0.02s
+
+  nuclear and kinetic      -1.78000009
+         kinetic only       0.78503548
+              coulomb       0.94205362
+       exact exchange      -0.47102686
+    nuclear-repulsion       0.33073576
+   regularized energy      -0.97823757
+timer:                compute energy    0.17s 0.17s
+timer:           compute fock matrix    0.04s 0.04s
+timer:                     BSH apply    0.16s 0.16s
+timer:                 solver.update    0.01s 0.01s
+Norm of vector changes ab spin case : rms 5.826928e-02    max 5.826928e-02
+convergence: bshresidual, energy change, max energy change, density change 6.1e-02 9.8e-01 7.0e+00 1.3e-01
+timer:                orbital update    0.07s 0.07s
+finished iteration  0 at time      2.0s with energy   -0.97823757
+timer:   initialize Coulomb operator    0.12s 0.12s
+timer:         initialize K operator    0.05s 0.05s
+completed task   0 after    0.0s at time    2.3s
+completed task   1 after    0.1s at time    2.5s
+cloud storing cpu time 0.0
+cloud replication cpu time 0.0
+cloud reading cpu time 0.0 
+cloud cache stores     4
+cloud cache loads      4
+completed taskqueue after     0.2s at time  2.5s
+ total cpu time / per world   0.2s  0.2s
+timer:                 compute Knemo    0.16s 0.16s
+timer:      compute Unemo 0.00296444    0.01s 0.01s
+
+  nuclear and kinetic      -1.78174123
+         kinetic only       0.73666513
+              coulomb       0.92967811
+       exact exchange      -0.46483910
+    nuclear-repulsion       0.33073576
+   regularized energy      -0.98616646
+timer:                compute energy    0.19s 0.19s
+timer:           compute fock matrix    0.04s 0.04s
+timer:                     BSH apply    0.17s 0.17s
+timer:                 solver.update    0.01s 0.01s
+Norm of vector changes ab spin case : rms 2.690446e-02    max 2.690446e-02
+convergence: bshresidual, energy change, max energy change, density change 1.9e-02 7.9e-03 4.8e-02 4.0e-03
+timer:                orbital update    0.08s 0.08s
+finished iteration  1 at time      3.0s with energy   -0.98616646
+timer:   initialize Coulomb operator    0.13s 0.13s
+timer:         initialize K operator    0.04s 0.04s
+completed task   0 after    0.0s at time    3.3s
+completed task   1 after    0.1s at time    3.4s
+cloud storing cpu time 0.0
+cloud replication cpu time 0.0
+cloud reading cpu time 0.0 
+cloud cache stores     4
+cloud cache loads      4
+completed taskqueue after     0.1s at time  3.4s
+ total cpu time / per world   0.1s  0.1s
+timer:                 compute Knemo    0.13s 0.13s
+timer:      compute Unemo 0.00296444    0.02s 0.02s
+
+  nuclear and kinetic      -1.77915920
+         kinetic only       0.71347725
+              coulomb       0.92273114
+       exact exchange      -0.46136561
+    nuclear-repulsion       0.33073576
+   regularized energy      -0.98705791
+timer:                compute energy    0.15s 0.15s
+timer:           compute fock matrix    0.04s 0.04s
+timer:                     BSH apply    0.16s 0.16s
+timer:                 solver.update    0.01s 0.01s
+Norm of vector changes ab spin case : rms 1.811653e-03    max 1.811653e-03
+convergence: bshresidual, energy change, max energy change, density change 1.4e-03 8.9e-04 2.3e-02 4.1e-04
+timer:                orbital update    0.06s 0.06s
+finished iteration  2 at time      3.8s with energy   -0.98705791
+timer:   initialize Coulomb operator    0.13s 0.13s
+timer:         initialize K operator    0.04s 0.04s
+completed task   0 after    0.0s at time    4.1s
+completed task   1 after    0.1s at time    4.3s
+cloud storing cpu time 0.0
+cloud replication cpu time 0.0
+cloud reading cpu time 0.0 
+cloud cache stores     4
+cloud cache loads      4
+completed taskqueue after     0.1s at time  4.3s
+ total cpu time / per world   0.1s  0.1s
+timer:                 compute Knemo    0.13s 0.13s
+timer:      compute Unemo 0.00296444    0.01s 0.01s
+
+  nuclear and kinetic      -1.77890850
+         kinetic only       0.71090754
+              coulomb       0.92220594
+       exact exchange      -0.46110301
+    nuclear-repulsion       0.33073576
+   regularized energy      -0.98706981
+timer:                compute energy    0.16s 0.16s
+timer:           compute fock matrix    0.05s 0.05s
+timer:                     BSH apply    0.21s 0.21s
+timer:                 solver.update    0.02s 0.02s
+Norm of vector changes ab spin case : rms 2.617415e-04    max 2.617415e-04
+convergence: bshresidual, energy change, max energy change, density change 3.5e-04 1.2e-05 2.6e-03 6.1e-05
+timer:                orbital update    0.08s 0.08s
+finished iteration  3 at time      4.8s with energy   -0.98706981
+
+Iterations converged
+
+
+ Dipole Moment (a.u.)
+ -----------
+
+     x:  -1.586579e-11
+     y:  -1.588685e-11
+     z:  -4.053938e-15
+ Total Dipole Moment:  2.245251e-11 
+
+timer:               dipole     0.00s     0.00s
+Nemo Orbital Energies: [*]  -0.42835132
+
+SCF DATA TO JSON
+nemo energy:  -9.870698e-01
+ at time 4.8
+ignoring unknown parameter in input file:  n_virt
+PNO Integrals evaluated as:
+pnoint
+       rank_increase  15         # default   maximum rank to increase in every macroiteration
+               chunk  100        # default   chunk of functions operated on in parallel when G or K is applied (prevent 
+                                 #           memory shortage)
+               debug  false      # default   debug mode
+              freeze  0          # derived   frozen core approximation
+             maxrank  1          # defined   maximal pno rank for all pairs
+           guesstype  exop       # derived   the guesstype: exop (recommended, multiply polynomial excitation operators 
+                                 #           onto the occupied orbitals), empty (don't compute a guess), scf (use the 
+                                 #           ao basis from the SCF solver), partial_wave (create s,p,d ..., type 
+                                 #           functions and place on atoms), predefined (same as partial_wave but for 
+                                 #           predefined sets)
+                exop  multipole  # derived   this string defines which excitation operators can be used, use 'dipole', 
+                                 #           'dipole+', 'quadrupole', 'ocopole', or 'multipole', need to set guesstype 
+                                 #           to 'exop' which is the default
+          exop_trigo  true       # default   use trigonometric excitation operators ( x --> sin(x)
+        partial_wave             # default   atom centered partial wave guess of format like 'h-2s1p-o-3s2p1d', need to 
+                                 #           set guesstype to 'partial_wave' and adaptive_solver to 'none'
+          predefined             # default   predefined partial wave guesses of type pvxz with x=d,t,q,5,6, need to set 
+                                 #           guesstype to 'predefined' and adaptive_solver to 'none'
+           maxiter_t  100        # default   maximal number of iterations in the amplitude solver
+       maxiter_micro  10         # default   Maximum of iterations for every cycle in the adaptive solver
+       maxiter_macro  10         # default   Maximum of iterations of cycles in the adaptive solver
+                tpno  1.0000e-08 # default   PNO cutoff threshold
+          tpno_tight  1.0000e-10 # derived   PNO cutoff for the first iteration
+    canonicalize_pno  true       # default   canonicalize the pnos before the amplitude solver
+              thresh  1.0000e-04 # defined   MRA threshold
+         econv_micro  1.0000e-04 # derived   Energy convergence for microiterations (Greens function based 
+                                 #           optimization) in adaptive solver
+         econv_pairs  1.0000e-05 # derived   ENergy convergence for individual pairs in adaptive solver. Converged 
+                                 #           pairs are frozen automatically
+         econv_macro  1.0000e-04 # derived   Energy convergence for macroiterations in adaptive solver, no effect if 
+                                 #           adaptive_solver is deactivated
+               dconv  1.0000e-01 # default   convergence of every PNO in the Green's function solver
+           op_thresh  1.0000e-06 # default   MRA operator thresh
+             restart  none       # derived   restart pairs of this type, use 'mp2', 'cispd', 'all' or 'none'
+          no_compute  none       # default   do not compute the pairs of this type, use 'mp2', 'cispd', 'all' or 'none' 
+                                 #
+              no_opt  none       # default   do not optimize the pnos of this type, use 'mp2', 'cispd', 'all' or 'none' 
+                                 #
+            no_guess  none       # derived   guess for this type will be empty, use 'mp2', 'cispd', 'all' or 'none'
+     adaptive_solver  all        # default   Use adaptive solver for those pairs, use 'mp2', 'cispd', 'all' or 'none', 
+                                 #           works only in combination with guesstype 'exop'
+                kain  true       # default   use KAIN solver in amplitude solver
+       kain_subspace  5          # default   subspace size of the KAIN solver (amplitudes)
+                 f12  false      # defined   use explicit correlation
+        cispd_number  -1         # default   CIS(D) excitation numbers, to read in correct functions
+        cispd_energy  0.0000e+00 # default   CIS energy
+        freeze_pairs  none       # default   frozen pairs will not be optimized: Expected format 'a b c d' will freeze 
+                                 #           pairs ab and cd
+freeze_pairs_of_orbital  []         # default    All pairs which originate from this orbital will not be optimized
+active_pairs_of_orbital  []         # default    All pairs which originate from this orbital will not be frozen all 
+                                 #              other pairs will, if this vector is not empty
+no_opt_in_first_iteration  false      # default   Do not optimize in the first iteration (then the potentials do not 
+                                 #                have to be evaluated, use this for large guesses)
+            exchange  full       # default   approximate exchange with 'neglect' or xc functional -> same syntax as 
+                                 #           moldft
+           save_pnos  true       # default   Save the OBS-PNOs to a file, before and after orthonormalization.
+            diagonal  true       # defined   Compute only diagonal PNOs
+              orthog  symmetric  # defined   orthogonalization method for PNO basis, also current default for a 
+                                 #           potential CABS. options: symmetric, canonical, cholesky, rr_cholesky,
+         orthog_cabs  default    # default   orthogonalization method for CABS basis. options: symmetric, canonical, 
+                                 #           cholesky, rr_cholesky, uses same as orbitals basis if default.
+               n_pno  1          # defined   desired size of PNO-basis (orbital space)
+         cabs_option  none       # default   type of complementary auxiliary basis to be used. can be none ~ no CABS, 
+                                 #           gbs ~ Gaussian basis set as CABS, requires input via auxbas_file, pno ~ 
+                                 #           use superfluous PNOs as CABS, mixed ~ gbs&pno-option
+       pno_cabs_size  -1         # default   size of a potential pno-cabs. defaults to -1 ~ all remaining PNOs, if 
+                                 #           pno-cabs or mixed-cabs
+           only_diag  true       # derived   use only diagonal elements PNOs
+         cherry_pick  []         # default   cherry pick option to choose particular set of PNOs, not just blindly by 
+                                 #           occupation number. can be useful, if only a restricted number of PNOs can 
+                                 #           be used, to avoid separating degenerate pairs. can be envoked by passing a 
+                                 #           vector via [ elem1, elem2, ... ]
+         ignore_pair  []         # default   ignore certain pairs in the selection of pnos numbering is 00-0, 01-1, 
+                                 #           02-2 ...
+               gamma  1.4000e+00 # default   The f12 length scale, here to be used to compute f12-integrals
+         cabs_thresh  1.0000e-04 # derived    thresh for cabs part
+              auxbas  none       # default   atom centered partial wave guess of format like 'h-2s1p-o-3s2p1d'
+         auxbas_file  none       # default   Use external comp. aux. basis in addition to the pnos as auxbasis. Give 
+                                 #           the filename as parameter. Give the auxbas in turbomole format. Don't use 
+                                 #           contractions. If a file is specified the auxbas parameter has no effect
+   print_pno_overlap  true       # default   Print overlap matrix at certain steps in computation, for debugging 
+                                 #           purposes.
+      hardcore_boson  false      # default   compute only integrals for hardcore boson hamiltonian (restricted to 
+                                 #           double occupations)
+end
+F12 Operators initialized right
+timer:                    Testing F12 Operators     0.23s     0.23s 
+set mul_tol =0
+timer:  Initializing (active) Exchange Orbitals     0.14s     0.14s 
+Size of active mos and their exchange potentials:
+K(acmos)=1.001775e-03 Gbyte
+acmos   =8.791089e-04 Gbyte
+PNO Parameters
+pno
+       rank_increase  15         # default   maximum rank to increase in every macroiteration
+               chunk  100        # default   chunk of functions operated on in parallel when G or K is applied (prevent 
+                                 #           memory shortage)
+               debug  false      # default   debug mode
+              freeze  0          # derived   frozen core approximation
+             maxrank  1          # defined   maximal pno rank for all pairs
+           guesstype  exop       # derived   the guesstype: exop (recommended, multiply polynomial excitation operators 
+                                 #           onto the occupied orbitals), empty (don't compute a guess), scf (use the 
+                                 #           ao basis from the SCF solver), partial_wave (create s,p,d ..., type 
+                                 #           functions and place on atoms), predefined (same as partial_wave but for 
+                                 #           predefined sets)
+                exop  multipole  # derived   this string defines which excitation operators can be used, use 'dipole', 
+                                 #           'dipole+', 'quadrupole', 'ocopole', or 'multipole', need to set guesstype 
+                                 #           to 'exop' which is the default
+          exop_trigo  true       # default   use trigonometric excitation operators ( x --> sin(x)
+        partial_wave             # default   atom centered partial wave guess of format like 'h-2s1p-o-3s2p1d', need to 
+                                 #           set guesstype to 'partial_wave' and adaptive_solver to 'none'
+          predefined             # default   predefined partial wave guesses of type pvxz with x=d,t,q,5,6, need to set 
+                                 #           guesstype to 'predefined' and adaptive_solver to 'none'
+           maxiter_t  100        # default   maximal number of iterations in the amplitude solver
+       maxiter_micro  10         # default   Maximum of iterations for every cycle in the adaptive solver
+       maxiter_macro  10         # default   Maximum of iterations of cycles in the adaptive solver
+                tpno  1.0000e-08 # default   PNO cutoff threshold
+          tpno_tight  1.0000e-10 # derived   PNO cutoff for the first iteration
+    canonicalize_pno  true       # default   canonicalize the pnos before the amplitude solver
+              thresh  1.0000e-04 # defined   MRA threshold
+         econv_micro  1.0000e-04 # derived   Energy convergence for microiterations (Greens function based 
+                                 #           optimization) in adaptive solver
+         econv_pairs  1.0000e-05 # derived   ENergy convergence for individual pairs in adaptive solver. Converged 
+                                 #           pairs are frozen automatically
+         econv_macro  1.0000e-04 # derived   Energy convergence for macroiterations in adaptive solver, no effect if 
+                                 #           adaptive_solver is deactivated
+               dconv  1.0000e-01 # default   convergence of every PNO in the Green's function solver
+           op_thresh  1.0000e-06 # default   MRA operator thresh
+             restart  none       # derived   restart pairs of this type, use 'mp2', 'cispd', 'all' or 'none'
+          no_compute  none       # default   do not compute the pairs of this type, use 'mp2', 'cispd', 'all' or 'none' 
+                                 #
+              no_opt  none       # default   do not optimize the pnos of this type, use 'mp2', 'cispd', 'all' or 'none' 
+                                 #
+            no_guess  none       # derived   guess for this type will be empty, use 'mp2', 'cispd', 'all' or 'none'
+     adaptive_solver  all        # default   Use adaptive solver for those pairs, use 'mp2', 'cispd', 'all' or 'none', 
+                                 #           works only in combination with guesstype 'exop'
+                kain  true       # default   use KAIN solver in amplitude solver
+       kain_subspace  5          # default   subspace size of the KAIN solver (amplitudes)
+                 f12  false      # defined   use explicit correlation
+        cispd_number  -1         # default   CIS(D) excitation numbers, to read in correct functions
+        cispd_energy  0.0000e+00 # default   CIS energy
+        freeze_pairs  none       # default   frozen pairs will not be optimized: Expected format 'a b c d' will freeze 
+                                 #           pairs ab and cd
+freeze_pairs_of_orbital  []         # default    All pairs which originate from this orbital will not be optimized
+active_pairs_of_orbital  []         # default    All pairs which originate from this orbital will not be frozen all 
+                                 #              other pairs will, if this vector is not empty
+no_opt_in_first_iteration  false      # default   Do not optimize in the first iteration (then the potentials do not 
+                                 #                have to be evaluated, use this for large guesses)
+            exchange  full       # default   approximate exchange with 'neglect' or xc functional -> same syntax as 
+                                 #           moldft
+           save_pnos  true       # default   Save the OBS-PNOs to a file, before and after orthonormalization.
+            diagonal  true       # defined   Compute only diagonal PNOs
+end
+
+**********************
+Solve PNO-MP2
+*********************
+
+
+**********************
+Iterate Pairs
+*********************
+
+
+************************
+Adaptive Solver
+***********************
+
+Initializing empty Pairs:
+no guess was explicitly demanded for mp2
+
+timer:                                     RRCD     0.00s     0.00s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.00s     0.00s 
+timer:          apply Q and orthonormalize PNOs     0.00s     0.00s 
+Created Guess:
+pair00 with 0 guess functions
+guess pair00 size: 0.0000000000e+00 | 0.0000000000e+00 Gbyte (after truncation)
+timer:                           truncate guess     0.00s     0.00s 
+timer:                         Initialize Pairs     0.00s     0.00s 
+Keyword multipole is not known
+Guess protocol for adaptively growing ranks is: [dipole+, quadrupole, octopole, octopole, octopole, octopole, octopole, octopole, octopole, octopole]
+
+
+--------Adaptive Solver Macroiteration 0 from max 10 ----------
+
+Growing ranks with exop=dipole+
+Create guess functions by multiplying plane-waves to 1 functions 
+Created 4 virtuals for pair00
+timer:                                     RRCD     0.01s     0.01s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.00s     0.00s 
+timer:                        grow PNO subspace     0.05s     0.05s 
+SolveInternal: Parameters are assigned as
+no_compute        = false
+no_opt            = false
+restart           = false
+do_cispd          = false
+econv             =1.0000000000e-04
+maxrank (min,max) = (1,1)
+Solving MP2 doubles
+Information About All Pairs:
+mp2_pair00           number=0 rank=  4 frozen=false
+number of pairs=1
+average rank   =4 (4.0000000000e+00)
+largest rank   =4
+PNOPairs Memory Information
+Total: 0.0036799908 GB 
+PNO  : 0.0036799908 GB 
+KPNO : 0.0000000000 GB 
+W    : 0.0000000000 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+set mul_tol =0
+wall time=6.3225581646 chunk=4 allK.size()=4 memory=0.0033528805 GB
+timer:                             compute KPNO     0.44s     0.44s 
+wall time=6.3397259712 chunk=4 allJ.size()=4 memory=0.0036799908 GB
+timer:                             compute JPNO     0.02s     0.02s 
+timer:                    compute Fock matrices     0.17s     0.17s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.01s     0.01s 
+timer:                             Canonicalize     0.01s     0.01s 
+PNOPairs Memory Information
+Total: 0.0070328712 GB 
+PNO  : 0.0036799908 GB 
+KPNO : 0.0033528805 GB 
+W    : 0.0000000000 GB 
+
+timer:                                 truncate     0.01s     0.01s 
+timer:                   Fluctuation Potentials     0.67s     0.67s 
+timer:                       Fluctuation Matrix     0.02s     0.02s 
+PNOPairs Memory Information
+Total: 0.0137386322 GB 
+PNO  : 0.0036799908 GB 
+KPNO : 0.0033528805 GB 
+W    : 0.0067057610 GB 
+
+PNOPairs Memory Information
+Total: 0.0137386322 GB 
+PNO  : 0.0036799908 GB 
+KPNO : 0.0033528805 GB 
+W    : 0.0067057610 GB 
+
+timer:                                 truncate     0.01s     0.01s 
+timer:                             PNO Overlaps     0.01s     0.01s 
+t_iter =  0  Hylleraas energy =  0.0000000000  ||R||_F =  0.1470282200  conv =  no
+subspace solution [*]   1.00000000
+
+t_iter =  1  Hylleraas energy =  -0.0210405356  ||R||_F =  0.0000000000  conv =  yes
+=======================================================
+
+Hylleraas MP2 Energies
+
+=======================================================
+    i    j      singlet      triplet        Total
+=======================================================
+    0    0  -2.10405e-02  0.00000e+00 -2.10405e-02
+=======================================================
+Hylleraas MP2 Energies (singlet): -2.10405e-02
+Hylleraas MP2 Energies (triplet):  0.00000e+00
+Hylleraas MP2 Energies (total)  : -2.10405e-02
+=======================================================
+-------------------------------------------
+Total Reg Energy  =-2.10405e-02
+Total F12 Energy  = 0.00000e+00
+Sum Energies Total=-2.10405e-02
+-------------------------------------------
+timer:                         Solve Amplitudes     0.00s     0.00s 
+No optimization untill now: Compressing pno ranks with tighter threshold
+1.00000e-10 instead of 1.00000e-08
+pair00: density evals:
+ [*]   0.00252667   0.00252667   0.00269387   0.03457181
+
+pair00: # of PNOs reduced from  4  to  1  maxrank= 1
+timer:                            compress PNOs     0.00s     0.00s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.00s     0.00s 
+timer:                          PNO Compression     0.01s     0.01s 
+Information About All Pairs:
+mp2_pair00           number=0 rank=  1 frozen=false
+number of pairs=1
+average rank   =1 (1.00000e+00)
+largest rank   =1
+saving vector of functions mp2_pair00
+timer:                        save pnos on disc     0.00s     0.00s 
+PNOPairs Memory Information
+Total: 0.00352 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00084 GB 
+W    : 0.00168 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+timer:      compute densities for G application     0.00s     0.00s 
+timer:                Prepare for G application     0.00s     0.00s 
+timer:                                    add K     0.00s     0.00s 
+size of all Vpsi potentials (without Vnuc and J) 0.00084 GB 
+time=7.31154 chunk=1 Vpsi+Vnuc+J=0.00296 GB
+time=7.31566 chunk=1 Vpsi+Vnuc+J=0.00296 GB (after truncation)
+timer:                           Apply G to all     0.27s     0.27s 
+timer:                       apply Q and update     0.00s     0.00s 
+mp2_pair00 residual norms:
+[0.34635]
+mp2_pair00 scaled residual norms:
+[0.06440]
+timer:                          update all PNOs     0.27s     0.27s 
+timer:                                     RRCD     0.00s     0.00s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.01s     0.01s 
+saving vector of functions mp2_pair00
+timer:                        save pnos on disc     0.00s     0.00s 
+
+
+No convergence yet. Energy change = 0.02104
+
+timer:                        Whole Iteration 1     1.66s     1.66s 
+Information About All Pairs:
+mp2_pair00           number=0 rank=  1 frozen=false
+number of pairs=1
+average rank   =1 (1.00000)
+largest rank   =1
+PNOPairs Memory Information
+Total: 0.00100 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00000 GB 
+W    : 0.00000 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+set mul_tol =0
+wall time=7.68233 chunk=1 allK.size()=1 memory=0.00084 GB
+timer:                             compute KPNO     0.14s     0.14s 
+wall time=7.69218 chunk=1 allJ.size()=1 memory=0.00100 GB
+timer:                             compute JPNO     0.01s     0.01s 
+timer:                    compute Fock matrices     0.07s     0.07s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.01s     0.01s 
+timer:                             Canonicalize     0.01s     0.01s 
+PNOPairs Memory Information
+Total: 0.00184 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00084 GB 
+W    : 0.00000 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+timer:                   Fluctuation Potentials     0.20s     0.20s 
+timer:                       Fluctuation Matrix     0.01s     0.01s 
+PNOPairs Memory Information
+Total: 0.00352 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00084 GB 
+W    : 0.00168 GB 
+
+PNOPairs Memory Information
+Total: 0.00352 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00084 GB 
+W    : 0.00168 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+timer:                             PNO Overlaps     0.01s     0.01s 
+t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.16060  conv =  no
+subspace solution [*]   1.00000000
+
+t_iter =  1  Hylleraas energy =  -0.02600  ||R||_F =  0.00000  conv =  yes
+=======================================================
+
+Hylleraas MP2 Energies
+
+=======================================================
+    i    j      singlet      triplet        Total
+=======================================================
+    0    0  -2.60024e-02  0.00000e+00 -2.60024e-02
+=======================================================
+Hylleraas MP2 Energies (singlet): -2.60024e-02
+Hylleraas MP2 Energies (triplet):  0.00000e+00
+Hylleraas MP2 Energies (total)  : -2.60024e-02
+=======================================================
+-------------------------------------------
+Total Reg Energy  =-2.60024e-02
+Total F12 Energy  = 0.00000e+00
+Sum Energies Total=-2.60024e-02
+-------------------------------------------
+timer:                         Solve Amplitudes     0.00s     0.00s 
+pair00: density evals:
+ [*]   0.05242877
+
+timer:                            compress PNOs     0.00s     0.00s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.01s     0.01s 
+timer:                          PNO Compression     0.01s     0.01s 
+Information About All Pairs:
+mp2_pair00           number=0 rank=  1 frozen=false
+number of pairs=1
+average rank   =1 (1.00000e+00)
+largest rank   =1
+saving vector of functions mp2_pair00
+timer:                        save pnos on disc     0.00s     0.00s 
+PNOPairs Memory Information
+Total: 0.00352 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00084 GB 
+W    : 0.00168 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+timer:      compute densities for G application     0.00s     0.00s 
+timer:                Prepare for G application     0.00s     0.00s 
+timer:                                    add K     0.00s     0.00s 
+size of all Vpsi potentials (without Vnuc and J) 0.00084 GB 
+time=8.04428 chunk=1 Vpsi+Vnuc+J=0.00296 GB
+time=8.04546 chunk=1 Vpsi+Vnuc+J=0.00296 GB (after truncation)
+timer:                           Apply G to all     0.25s     0.25s 
+timer:                       apply Q and update     0.00s     0.00s 
+mp2_pair00 residual norms:
+[0.08414]
+mp2_pair00 scaled residual norms:
+[0.01927]
+timer:                          update all PNOs     0.26s     0.26s 
+timer:                                     RRCD     0.00s     0.00s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.00s     0.00s 
+saving vector of functions mp2_pair00
+timer:                        save pnos on disc     0.00s     0.00s 
+
+
+No convergence yet. Energy change = 0.00496
+
+timer:                        Whole Iteration 2     0.73s     0.73s 
+Information About All Pairs:
+mp2_pair00           number=0 rank=  1 frozen=false
+number of pairs=1
+average rank   =1 (1.00000)
+largest rank   =1
+PNOPairs Memory Information
+Total: 0.00100 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00000 GB 
+W    : 0.00000 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+set mul_tol =0
+wall time=8.45671 chunk=1 allK.size()=1 memory=0.00084 GB
+timer:                             compute KPNO     0.18s     0.18s 
+wall time=8.47067 chunk=1 allJ.size()=1 memory=0.00100 GB
+timer:                             compute JPNO     0.01s     0.01s 
+timer:                    compute Fock matrices     0.09s     0.09s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.01s     0.01s 
+timer:                             Canonicalize     0.01s     0.01s 
+PNOPairs Memory Information
+Total: 0.00184 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00084 GB 
+W    : 0.00000 GB 
+
+timer:                                 truncate     0.01s     0.01s 
+timer:                   Fluctuation Potentials     0.26s     0.26s 
+timer:                       Fluctuation Matrix     0.01s     0.01s 
+PNOPairs Memory Information
+Total: 0.00352 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00084 GB 
+W    : 0.00168 GB 
+
+PNOPairs Memory Information
+Total: 0.00352 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00084 GB 
+W    : 0.00168 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+timer:                             PNO Overlaps     0.01s     0.01s 
+t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.16810  conv =  no
+subspace solution [*]   1.00000000
+
+t_iter =  1  Hylleraas energy =  -0.02709  ||R||_F =  0.00000  conv =  yes
+=======================================================
+
+Hylleraas MP2 Energies
+
+=======================================================
+    i    j      singlet      triplet        Total
+=======================================================
+    0    0  -2.70863e-02  0.00000e+00 -2.70863e-02
+=======================================================
+Hylleraas MP2 Energies (singlet): -2.70863e-02
+Hylleraas MP2 Energies (triplet):  0.00000e+00
+Hylleraas MP2 Energies (total)  : -2.70863e-02
+=======================================================
+-------------------------------------------
+Total Reg Energy  =-2.70863e-02
+Total F12 Energy  = 0.00000e+00
+Sum Energies Total=-2.70863e-02
+-------------------------------------------
+timer:                         Solve Amplitudes     0.00s     0.00s 
+pair00: density evals:
+ [*]   0.05192944
+
+timer:                            compress PNOs     0.00s     0.00s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.01s     0.01s 
+timer:                          PNO Compression     0.01s     0.01s 
+Information About All Pairs:
+mp2_pair00           number=0 rank=  1 frozen=false
+number of pairs=1
+average rank   =1 (1.00000e+00)
+largest rank   =1
+saving vector of functions mp2_pair00
+timer:                        save pnos on disc     0.00s     0.00s 
+PNOPairs Memory Information
+Total: 0.00352 GB 
+PNO  : 0.00100 GB 
+KPNO : 0.00084 GB 
+W    : 0.00168 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+timer:      compute densities for G application     0.00s     0.00s 
+timer:                Prepare for G application     0.00s     0.00s 
+timer:                                    add K     0.00s     0.00s 
+size of all Vpsi potentials (without Vnuc and J) 0.00084 GB 
+time=8.91747 chunk=1 Vpsi+Vnuc+J=0.00313 GB
+time=8.92204 chunk=1 Vpsi+Vnuc+J=0.00313 GB (after truncation)
+timer:                           Apply G to all     0.30s     0.30s 
+timer:                       apply Q and update     0.00s     0.00s 
+mp2_pair00 residual norms:
+[0.02648]
+mp2_pair00 scaled residual norms:
+[0.00603]
+timer:                          update all PNOs     0.30s     0.30s 
+timer:                                     RRCD     0.00s     0.00s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.00s     0.00s 
+saving vector of functions mp2_pair00
+timer:                        save pnos on disc     0.00s     0.00s 
+
+
+No convergence yet. Energy change = 0.00108
+
+timer:                        Whole Iteration 3     0.91s     0.91s 
+Information About All Pairs:
+mp2_pair00           number=0 rank=  1 frozen=false
+number of pairs=1
+average rank   =1 (1.00000)
+largest rank   =1
+PNOPairs Memory Information
+Total: 0.00117 GB 
+PNO  : 0.00117 GB 
+KPNO : 0.00000 GB 
+W    : 0.00000 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+set mul_tol =0
+wall time=9.37874 chunk=1 allK.size()=1 memory=0.00084 GB
+timer:                             compute KPNO     0.18s     0.18s 
+wall time=9.39448 chunk=1 allJ.size()=1 memory=0.00117 GB
+timer:                             compute JPNO     0.02s     0.02s 
+timer:                    compute Fock matrices     0.09s     0.09s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.00s     0.00s 
+timer:                             Canonicalize     0.00s     0.00s 
+PNOPairs Memory Information
+Total: 0.00200 GB 
+PNO  : 0.00117 GB 
+KPNO : 0.00084 GB 
+W    : 0.00000 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+timer:                   Fluctuation Potentials     0.24s     0.24s 
+timer:                       Fluctuation Matrix     0.01s     0.01s 
+PNOPairs Memory Information
+Total: 0.00368 GB 
+PNO  : 0.00117 GB 
+KPNO : 0.00084 GB 
+W    : 0.00168 GB 
+
+PNOPairs Memory Information
+Total: 0.00368 GB 
+PNO  : 0.00117 GB 
+KPNO : 0.00084 GB 
+W    : 0.00168 GB 
+
+timer:                                 truncate     0.00s     0.00s 
+timer:                             PNO Overlaps     0.01s     0.01s 
+t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.17013  conv =  no
+subspace solution [*]   1.00000000
+
+t_iter =  1  Hylleraas energy =  -0.02721  ||R||_F =  0.00000  conv =  yes
+=======================================================
+
+Hylleraas MP2 Energies
+
+=======================================================
+    i    j      singlet      triplet        Total
+=======================================================
+    0    0  -2.72062e-02  0.00000e+00 -2.72062e-02
+=======================================================
+Hylleraas MP2 Energies (singlet): -2.72062e-02
+Hylleraas MP2 Energies (triplet):  0.00000e+00
+Hylleraas MP2 Energies (total)  : -2.72062e-02
+=======================================================
+-------------------------------------------
+Total Reg Energy  =-2.72062e-02
+Total F12 Energy  = 0.00000e+00
+Sum Energies Total=-2.72062e-02
+-------------------------------------------
+timer:                         Solve Amplitudes     0.00s     0.00s 
+pair00: density evals:
+ [*]   0.05114765
+
+timer:                            compress PNOs     0.00s     0.00s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.02s     0.02s 
+timer:                          PNO Compression     0.02s     0.02s 
+Information About All Pairs:
+mp2_pair00           number=0 rank=  1 frozen=false
+number of pairs=1
+average rank   =1 (1.00000e+00)
+largest rank   =1
+saving vector of functions mp2_pair00
