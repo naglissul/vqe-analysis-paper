@@ -1,4 +1,4 @@
-qiskit==1.4.3 # Degraded
+qiskit==1.4.3 # Downgraded
 qiskit-nature==0.7.2 # Latest
 ipykernel==6.29.5 # Latest
 matplotlib==3.10.3 # Latest

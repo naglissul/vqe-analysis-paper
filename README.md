@@ -4,6 +4,10 @@ Repository for code implementation and exact results data for the bachelor thesi
 
 The paper is (will be) accessible on eLABa platform: [here (will be)](./)
 
+Done: MAPPINGS/
+
+# WIP
+
 ## Table of contents
 
 - [Examples in the paper, not the experiment](./examples.ipynb)
@@ -20,12 +24,13 @@ The paper is (will be) accessible on eLABa platform: [here (will be)](./)
 conda deactivate
 python3 -m venv qiskit-env
 source qiskit-env/bin/activate
-pip install --upgrade pip
 pip install -r requirements.txt
 deactivate
 ```
 
 ```bash
-python -m venv tequila-env
-pip install -r tequila-requirements.txt
+conda create --prefix ./tequila-env python=3.10
+conda activate ./tequila-env
+pip install tequila-basic
+conda install madtequila -c kottmann
 ```
