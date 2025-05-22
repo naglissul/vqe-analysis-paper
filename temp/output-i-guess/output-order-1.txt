@@ -1,0 +1,12 @@
+finished after 30.781155824661255s
+Hamiltonian:
+-7.3000+0.0692Z(0)-0.0069Y(0)Z(1)Y(2)-0.0069X(0)Z(1)X(2)+0.0692Z(1)-0.0069Y(1)Z(2)Y(3)-0.0069X(1)Z(2)X(3)-0.1941Z(2)-0.1941Z(3)+0.1204Z(0)Z(1)+0.0362Y(0)Y(2)+0.0362X(0)X(2)+0.0362Z(0)Y(1)Z(2)Y(3)+0.0362Z(0)X(1)Z(2)X(3)+0.0319Y(0)X(1)X(2)Y(3)-0.0319Y(0)Y(1)X(2)X(3)-0.0319X(0)X(1)Y(2)Y(3)+0.0319X(0)Y(1)Y(2)X(3)+0.0855Z(0)Z(2)+0.1175Z(0)Z(3)+0.0431Y(0)Z(1)Y(2)Z(3)+0.0431X(0)Z(1)X(2)Z(3)+0.1175Z(1)Z(2)+0.0431Y(1)Y(3)+0.0431X(1)X(3)+0.0855Z(1)Z(3)+0.1250Z(2)Z(3)
+Ansatz:
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
