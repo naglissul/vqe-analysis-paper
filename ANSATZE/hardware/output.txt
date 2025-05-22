@@ -1,0 +1,168 @@
+2025-05-22 14:52:43.133610
+2025-05-22 14:52:45.631157 Job submitted: d0qhw704anx0008m0tq0
+Job time: 26.33948588371277
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:52:44.992Z', 'finished': '2025-05-22T12:53:07.994Z', 'running': '2025-05-22T12:52:47.715Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:52:46.238Z', 'estimated_completion_time': '2025-05-22T12:52:59.238Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0412421678047858
+[0. 0.]
+2025-05-22 14:53:12.040801 Job submitted: d0qhwdh4anx0008m0tqg
+Job time: 25.00780177116394
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:53:11.192Z', 'finished': '2025-05-22T12:53:33.376Z', 'running': '2025-05-22T12:53:13.803Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:53:12.478Z', 'estimated_completion_time': '2025-05-22T12:53:25.478Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.046333901573566
+[1.e-08 0.e+00]
+2025-05-22 14:53:37.988020 Job submitted: d0qhwm24anx0008m0trg
+Job time: 26.76294207572937
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:53:37.163Z', 'finished': '2025-05-22T12:54:00.470Z', 'running': '2025-05-22T12:53:39.983Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:53:38.553Z', 'estimated_completion_time': '2025-05-22T12:53:51.553Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0410840727289696
+[0.e+00 1.e-08]
+2025-05-22 14:54:04.878790 Job submitted: d0qhwtvej76g008p45p0
+Job time: 25.58545470237732
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:54:03.898Z', 'finished': '2025-05-22T12:54:26.554Z', 'running': '2025-05-22T12:54:06.859Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:54:05.261Z', 'estimated_completion_time': '2025-05-22T12:54:18.261Z', 'position_in_queue': None, 'position_in_provider': None}
+-0.9095089337096324
+[ 0.99951832 -0.0310344 ]
+2025-05-22 14:54:31.194716 Job submitted: d0qhx1cqtdr0008gcaxg
+Job time: 26.018422842025757
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:54:30.196Z', 'finished': '2025-05-22T12:54:52.943Z', 'running': '2025-05-22T12:54:33.187Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:54:31.611Z', 'estimated_completion_time': '2025-05-22T12:54:44.611Z', 'position_in_queue': None, 'position_in_provider': None}
+-0.9091354023910377
+[ 0.99951833 -0.0310344 ]
+2025-05-22 14:54:57.714729 Job submitted: d0qhx854anx0008m0tsg
+Job time: 27.474268674850464
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:54:56.686Z', 'finished': '2025-05-22T12:55:20.499Z', 'running': '2025-05-22T12:54:59.795Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:54:58.067Z', 'estimated_completion_time': '2025-05-22T12:55:11.067Z', 'position_in_queue': None, 'position_in_provider': None}
+-0.9114853961913127
+[ 0.99951832 -0.03103439]
+2025-05-22 14:55:25.441325 Job submitted: d0qhxf5z41mg0089zxw0
+Job time: 25.600987434387207
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:55:24.596Z', 'finished': '2025-05-22T12:55:46.939Z', 'running': '2025-05-22T12:55:27.372Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:55:26.005Z', 'estimated_completion_time': '2025-05-22T12:55:39.005Z', 'position_in_queue': None, 'position_in_provider': None}
+-0.9922459891414311
+[ 0.34767624 -0.01079512]
+2025-05-22 14:55:51.371915 Job submitted: d0qhxnpr24mg008gatsg
+Job time: 25.030707120895386
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:55:50.458Z', 'finished': '2025-05-22T12:56:12.533Z', 'running': '2025-05-22T12:55:53.060Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:55:51.718Z', 'estimated_completion_time': '2025-05-22T12:56:04.718Z', 'position_in_queue': None, 'position_in_provider': None}
+-0.9921417424597907
+[ 0.34767625 -0.01079512]
+2025-05-22 14:56:16.748534 Job submitted: d0qhxvzz41mg0089zxx0
+Job time: 25.525850296020508
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:56:15.851Z', 'finished': '2025-05-22T12:56:38.495Z', 'running': '2025-05-22T12:56:18.859Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:56:17.353Z', 'estimated_completion_time': '2025-05-22T12:56:30.353Z', 'position_in_queue': None, 'position_in_provider': None}
+-0.9844034923996136
+[ 0.34767624 -0.01079511]
+2025-05-22 14:56:42.875551 Job submitted: d0qhy28r24mg008gatw0
+Job time: 26.504461526870728
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:56:42.112Z', 'finished': '2025-05-22T12:57:05.683Z', 'running': '2025-05-22T12:56:45.015Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:56:43.490Z', 'estimated_completion_time': '2025-05-22T12:56:56.490Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0268341428251713
+[ 0.11431969 -0.00354955]
+2025-05-22 14:57:10.632022 Job submitted: d0qhy99qtdr0008gcb00
+Job time: 26.181912183761597
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:57:09.942Z', 'finished': '2025-05-22T12:57:32.180Z', 'running': '2025-05-22T12:57:12.838Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:57:11.145Z', 'estimated_completion_time': '2025-05-22T12:57:24.145Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.037273123554538
+[ 0.1143197  -0.00354955]
+2025-05-22 14:57:36.184984 Job submitted: d0qhyfs4anx0008m0tw0
+Job time: 25.583021879196167
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:57:35.515Z', 'finished': '2025-05-22T12:57:58.034Z', 'running': '2025-05-22T12:57:38.588Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:57:36.750Z', 'estimated_completion_time': '2025-05-22T12:57:49.750Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.041203156763274
+[ 0.11431969 -0.00354954]
+2025-05-22 14:58:02.907767 Job submitted: d0qhypaz41mg0089zxz0
+Job time: 26.203706741333008
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:58:01.965Z', 'finished': '2025-05-22T12:58:24.729Z', 'running': '2025-05-22T12:58:04.947Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:58:03.383Z', 'estimated_completion_time': '2025-05-22T12:58:16.383Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0559969304495265
+[ 0.01740214 -0.00054033]
+2025-05-22 14:58:30.088109 Job submitted: d0qhyx3qtdr0008gcb10
+Job time: 27.034693717956543
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:58:29.197Z', 'finished': '2025-05-22T12:58:52.112Z', 'running': '2025-05-22T12:58:32.264Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:58:30.553Z', 'estimated_completion_time': '2025-05-22T12:58:43.553Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0494574154264804
+[ 0.01740215 -0.00054033]
+2025-05-22 14:58:56.816443 Job submitted: d0qhz3wej76g008p45t0
+Job time: 26.700570344924927
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:58:55.877Z', 'finished': '2025-05-22T12:59:19.260Z', 'running': '2025-05-22T12:58:58.920Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:58:57.320Z', 'estimated_completion_time': '2025-05-22T12:59:10.320Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0439641433872937
+[ 0.01740214 -0.00054032]
+2025-05-22 14:59:24.303019 Job submitted: d0qhzax5v19g008efb4g
+Job time: 26.038297414779663
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:59:23.387Z', 'finished': '2025-05-22T12:59:46.241Z', 'running': '2025-05-22T12:59:26.336Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:59:24.841Z', 'estimated_completion_time': '2025-05-22T12:59:37.841Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.05186810403178
+[ 0.00889799 -0.00027628]
+2025-05-22 14:59:51.084674 Job submitted: d0qhzhez41mg0089zy00
+Job time: 27.384349822998047
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T12:59:49.819Z', 'finished': '2025-05-22T13:00:13.872Z', 'running': '2025-05-22T12:59:53.100Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T12:59:51.518Z', 'estimated_completion_time': '2025-05-22T13:00:04.518Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0484739775503584
+[ 0.008898   -0.00027628]
+2025-05-22 15:00:18.559245 Job submitted: d0qhzrfqtdr0008gcb40
+Job time: 26.4703209400177
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:00:17.762Z', 'finished': '2025-05-22T13:00:40.598Z', 'running': '2025-05-22T13:00:20.784Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:00:19.162Z', 'estimated_completion_time': '2025-05-22T13:00:32.162Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0534381555139465
+[ 0.00889799 -0.00027627]
+2025-05-22 15:00:45.356578 Job submitted: d0qhzz7ej76g008p4600
+Job time: 38.60314393043518
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:00:44.550Z', 'finished': '2025-05-22T13:01:19.538Z', 'running': '2025-05-22T13:00:47.451Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:00:45.920Z', 'estimated_completion_time': '2025-05-22T13:00:58.920Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0534873683845691
+[ 0.00402466 -0.00012496]
+2025-05-22 15:01:24.570209 Job submitted: d0qj08sej76g008p461g
+Job time: 26.014514446258545
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:01:23.771Z', 'finished': '2025-05-22T13:01:46.516Z', 'running': '2025-05-22T13:01:26.724Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:01:25.176Z', 'estimated_completion_time': '2025-05-22T13:01:38.176Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0494528738939335
+[ 0.00402467 -0.00012496]
+2025-05-22 15:01:50.719024 Job submitted: d0qj0f94anx0008m0v3g
+Job time: 25.37207818031311
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:01:49.819Z', 'finished': '2025-05-22T13:02:12.292Z', 'running': '2025-05-22T13:01:52.658Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:01:51.093Z', 'estimated_completion_time': '2025-05-22T13:02:04.093Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0496386755219675
+[ 0.00402466 -0.00012495]
+2025-05-22 15:02:17.418848 Job submitted: d0qj0p2ej76g008p464g
+Job time: 26.267978191375732
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:02:16.516Z', 'finished': '2025-05-22T13:02:39.218Z', 'running': '2025-05-22T13:02:19.452Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:02:18.025Z', 'estimated_completion_time': '2025-05-22T13:02:31.025Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0486601860700575
+[ 1.87985755e-03 -5.83683741e-05]
+2025-05-22 15:02:43.933300 Job submitted: d0qj0wkqtdr0008gcb80
+Job time: 26.34986686706543
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:02:43.124Z', 'finished': '2025-05-22T13:03:05.891Z', 'running': '2025-05-22T13:02:45.978Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:02:44.515Z', 'estimated_completion_time': '2025-05-22T13:02:57.515Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0520414696288611
+[ 1.87986755e-03 -5.83683741e-05]
+2025-05-22 15:03:11.226161 Job submitted: d0qj13m4anx0008m0v6g
+Job time: 27.095154762268066
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:03:10.463Z', 'finished': '2025-05-22T13:03:32.829Z', 'running': '2025-05-22T13:03:13.386Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:03:11.815Z', 'estimated_completion_time': '2025-05-22T13:03:24.815Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0559351678341355
+[ 1.87985755e-03 -5.83583741e-05]
+2025-05-22 15:03:38.103724 Job submitted: d0qj1ad5v19g008efbdg
+Job time: 25.75443434715271
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:03:37.298Z', 'finished': '2025-05-22T13:03:59.789Z', 'running': '2025-05-22T13:03:40.074Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:03:38.614Z', 'estimated_completion_time': '2025-05-22T13:03:51.614Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.052714902066729
+[ 4.65324412e-04 -1.44480253e-05]
+2025-05-22 15:04:04.624749 Job submitted: d0qj1gyr24mg008gav90
+Job time: 27.18805694580078
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:04:03.822Z', 'finished': '2025-05-22T13:04:27.155Z', 'running': '2025-05-22T13:04:06.642Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:04:05.106Z', 'estimated_completion_time': '2025-05-22T13:04:18.106Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0541021497722887
+[ 4.65334412e-04 -1.44480253e-05]
+2025-05-22 15:04:31.994919 Job submitted: d0qj1qpz41mg0089zy8g
+Job time: 25.733174562454224
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:04:31.038Z', 'finished': '2025-05-22T13:04:53.374Z', 'running': '2025-05-22T13:04:33.889Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:04:32.485Z', 'estimated_completion_time': '2025-05-22T13:04:45.485Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0480200526797474
+[ 4.65324412e-04 -1.44380253e-05]
+2025-05-22 15:04:57.710494 Job submitted: d0qj1y7z41mg0089zy90
+Job time: 26.0481436252594
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:04:56.914Z', 'finished': '2025-05-22T13:05:19.750Z', 'running': '2025-05-22T13:04:59.942Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:04:58.312Z', 'estimated_completion_time': '2025-05-22T13:05:11.312Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.048654207700061
+[ 1.33516623e-04 -4.14560572e-06]
+2025-05-22 15:05:24.495632 Job submitted: d0qj24rz41mg0089zyb0
+Job time: 25.97585368156433
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:05:23.613Z', 'finished': '2025-05-22T13:05:46.372Z', 'running': '2025-05-22T13:05:26.562Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:05:25.036Z', 'estimated_completion_time': '2025-05-22T13:05:38.036Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0535294170161666
+[ 1.33526623e-04 -4.14560572e-06]
+2025-05-22 15:05:50.492661 Job submitted: d0qj2b9r24mg008gavb0
+Job time: 25.657777309417725
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:05:49.767Z', 'finished': '2025-05-22T13:06:12.525Z', 'running': '2025-05-22T13:05:52.570Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:05:51.073Z', 'estimated_completion_time': '2025-05-22T13:06:04.073Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0521730026650182
+[ 1.33516623e-04 -4.13560572e-06]
+2025-05-22 15:06:16.761371 Job submitted: d0qj2htz41mg0089zyc0
+Job time: 25.221819639205933
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:06:15.953Z', 'finished': '2025-05-22T13:06:38.256Z', 'running': '2025-05-22T13:06:18.913Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:06:17.407Z', 'estimated_completion_time': '2025-05-22T13:06:30.407Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.051777348736318
+[ 2.89188942e-05 -8.97913161e-07]
+2025-05-22 15:06:42.319694 Job submitted: d0qj2rb4anx0008m0vc0
+Job time: 26.70562195777893
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:06:41.481Z', 'finished': '2025-05-22T13:07:05.234Z', 'running': '2025-05-22T13:06:44.395Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:06:42.825Z', 'estimated_completion_time': '2025-05-22T13:06:55.825Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.0608939482030137
+[ 2.89288942e-05 -8.97913161e-07]
+/home/home/Desktop/PLAYGROUND/vqe-analysis-paper/qiskit-env/lib/python3.13/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py:876: UserWarning: Your current pending jobs are estimated to consume 13.33325256552087 quantum seconds, but you only have 13 quantum seconds left in your monthly quota; therefore, it is likely this job will be canceled
+  warnings.warn(warning_message)
+2025-05-22 15:07:09.437959 Job submitted: d0qj2z3qtdr0008gcbg0
+Job time: 26.7071590423584
+{'bss': {'seconds': 13}, 'usage': {'quantum_seconds': 13, 'seconds': 13}, 'timestamps': {'created': '2025-05-22T13:07:08.669Z', 'finished': '2025-05-22T13:07:32.070Z', 'running': '2025-05-22T13:07:11.716Z'}, 'executions': 0, 'num_circuits': 0, 'num_qubits': None, 'circuit_depths': None, 'qiskit_version': 'qiskit_ibm_runtime-0.39.0,qiskit-1.4.3*,qiskit_nature-0.7.2*', 'estimated_start_time': '2025-05-22T13:07:10.012Z', 'estimated_completion_time': '2025-05-22T13:07:23.012Z', 'position_in_queue': None, 'position_in_provider': None}
+-1.047973430008839
+[ 2.89188942e-05 -8.87913161e-07]

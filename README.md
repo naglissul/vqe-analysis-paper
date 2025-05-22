@@ -6,6 +6,10 @@ The paper is (will be) accessible on eLABa platform: [here (will be)](./)
 
 Done: MAPPINGS/
 
+Done: ANSATZE/hardware/
+
+Done: examples.ipynb
+
 # WIP
 
 ## Table of contents
@@ -31,6 +35,6 @@ deactivate
 ```bash
 conda create --prefix ./tequila-env python=3.10
 conda activate ./tequila-env
-pip install tequila-basic
+pip install tequila-basic # version 1.9.9, latest
 conda install madtequila -c kottmann
 ```

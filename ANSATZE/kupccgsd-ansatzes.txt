@@ -1,0 +1,2336 @@
+output redirected to h2_pno_integrals.out logfile
+finished after 21.994049310684204s
+
+molecule: H2, distance: 0.1, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 21.896101713180542s
+
+molecule: H2, distance: 0.1, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 22.422389030456543s
+
+molecule: H2, distance: 0.1, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+/home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/lib/python3.10/site-packages/tequila/quantumchemistry/madness_interface.py:259: TequilaWarning: Found file lih_htensor.npy from previous calculation ... deleting it
+  warnings.warn("Found file {} from previous calculation ... deleting it".format(filename),
+/home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/lib/python3.10/site-packages/tequila/quantumchemistry/madness_interface.py:259: TequilaWarning: Found file lih_gtensor.npy from previous calculation ... deleting it
+  warnings.warn("Found file {} from previous calculation ... deleting it".format(filename),
+/home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/lib/python3.10/site-packages/tequila/quantumchemistry/madness_interface.py:259: TequilaWarning: Found file lih_pnoinfo.txt from previous calculation ... deleting it
+  warnings.warn("Found file {} from previous calculation ... deleting it".format(filename),
+/home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/lib/python3.10/site-packages/tequila/quantumchemistry/madness_interface.py:259: TequilaWarning: Found file lih_pno_integrals.out from previous calculation ... deleting it
+  warnings.warn("Found file {} from previous calculation ... deleting it".format(filename),
+finished after 35.98841309547424s
+
+molecule: LiH, distance: 0.1, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 35.70875954627991s
+
+molecule: LiH, distance: 0.1, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 34.33907771110535s
+
+molecule: LiH, distance: 0.1, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+/home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/lib/python3.10/site-packages/tequila/quantumchemistry/madness_interface.py:259: TequilaWarning: Found file beh2_htensor.npy from previous calculation ... deleting it
+  warnings.warn("Found file {} from previous calculation ... deleting it".format(filename),
+/home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/lib/python3.10/site-packages/tequila/quantumchemistry/madness_interface.py:259: TequilaWarning: Found file beh2_gtensor.npy from previous calculation ... deleting it
+  warnings.warn("Found file {} from previous calculation ... deleting it".format(filename),
+/home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/lib/python3.10/site-packages/tequila/quantumchemistry/madness_interface.py:259: TequilaWarning: Found file beh2_pnoinfo.txt from previous calculation ... deleting it
+  warnings.warn("Found file {} from previous calculation ... deleting it".format(filename),
+/home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/lib/python3.10/site-packages/tequila/quantumchemistry/madness_interface.py:259: TequilaWarning: Found file beh2_pno_integrals.out from previous calculation ... deleting it
+  warnings.warn("Found file {} from previous calculation ... deleting it".format(filename),
+A madness exception occurred. Place a break point at madness::exception_break to debug.
+finished after 65.93349266052246s
+
+molecule: BeH2, distance: 0.1, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+A madness exception occurred. Place a break point at madness::exception_break to debug.
+finished after 65.07385516166687s
+
+molecule: BeH2, distance: 0.1, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+A madness exception occurred. Place a break point at madness::exception_break to debug.
+finished after 66.28890872001648s
+
+molecule: BeH2, distance: 0.1, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 2)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 2)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 2)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 2)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 2)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 20.305235624313354s
+
+molecule: H2, distance: 0.2, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 20.89124894142151s
+
+molecule: H2, distance: 0.2, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 20.84348154067993s
+
+molecule: H2, distance: 0.2, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 37.318095207214355s
+
+molecule: LiH, distance: 0.2, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 36.240920543670654s
+
+molecule: LiH, distance: 0.2, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 37.322646617889404s
+
+molecule: LiH, distance: 0.2, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+A madness exception occurred. Place a break point at madness::exception_break to debug.
+finished after 66.49022793769836s
+
+molecule: BeH2, distance: 0.2, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+A madness exception occurred. Place a break point at madness::exception_break to debug.
+finished after 65.02114081382751s
+
+molecule: BeH2, distance: 0.2, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+A madness exception occurred. Place a break point at madness::exception_break to debug.
+finished after 62.99945330619812s
+
+molecule: BeH2, distance: 0.2, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 2)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 2)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 2)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 2)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 2)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 18.662464380264282s
+
+molecule: H2, distance: 0.5, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 19.246118783950806s
+
+molecule: H2, distance: 0.5, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 18.448670625686646s
+
+molecule: H2, distance: 0.5, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 41.187617778778076s
+
+molecule: LiH, distance: 0.5, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 39.840296506881714s
+
+molecule: LiH, distance: 0.5, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 38.99520015716553s
+
+molecule: LiH, distance: 0.5, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+A madness exception occurred. Place a break point at madness::exception_break to debug.
+finished after 62.528480529785156s
+
+molecule: BeH2, distance: 0.5, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+A madness exception occurred. Place a break point at madness::exception_break to debug.
+finished after 60.11055850982666s
+
+molecule: BeH2, distance: 0.5, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+A madness exception occurred. Place a break point at madness::exception_break to debug.
+finished after 59.210369348526s
+
+molecule: BeH2, distance: 0.5, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 2)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 2)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 2)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 2)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 2)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 17.309483528137207s
+
+molecule: H2, distance: 0.735, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 17.854313373565674s
+
+molecule: H2, distance: 0.735, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 20.36241841316223s
+
+molecule: H2, distance: 0.735, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 45.21295380592346s
+
+molecule: LiH, distance: 0.735, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 39.05195093154907s
+
+molecule: LiH, distance: 0.735, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 35.74888610839844s
+
+molecule: LiH, distance: 0.735, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+finished after 60.00331354141235s
+
+molecule: BeH2, distance: 0.735, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 61.82810926437378s
+
+molecule: BeH2, distance: 0.735, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 62.16229748725891s
+
+molecule: BeH2, distance: 0.735, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 2)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 2)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 2)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 2)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 2)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 17.80516290664673s
+
+molecule: H2, distance: 1.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 18.071907997131348s
+
+molecule: H2, distance: 1.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 17.41731595993042s
+
+molecule: H2, distance: 1.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 30.23305058479309s
+
+molecule: LiH, distance: 1.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 29.29357624053955s
+
+molecule: LiH, distance: 1.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 31.210171461105347s
+
+molecule: LiH, distance: 1.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 52.663217306137085s
+
+molecule: BeH2, distance: 1.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 52.41879868507385s
+
+molecule: BeH2, distance: 1.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 53.454991579055786s
+
+molecule: BeH2, distance: 1.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 2)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 2)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 2)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 2)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 2)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 20.33814835548401s
+
+molecule: H2, distance: 1.5, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 19.078807830810547s
+
+molecule: H2, distance: 1.5, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 17.525380849838257s
+
+molecule: H2, distance: 1.5, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 30.508203506469727s
+
+molecule: LiH, distance: 1.5, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 31.16124200820923s
+
+molecule: LiH, distance: 1.5, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 34.47472929954529s
+
+molecule: LiH, distance: 1.5, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 67.97884583473206s
+
+molecule: BeH2, distance: 1.5, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+
+finished after 62.455546140670776s
+
+molecule: BeH2, distance: 1.5, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 60.70280337333679s
+
+molecule: BeH2, distance: 1.5, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 2)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 2)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 2)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 2)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 2)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 18.03980851173401s
+
+molecule: H2, distance: 2.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 17.9327495098114s
+
+molecule: H2, distance: 2.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 18.117570877075195s
+
+molecule: H2, distance: 2.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 30.28813624382019s
+
+molecule: LiH, distance: 2.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 32.829150915145874s
+
+molecule: LiH, distance: 2.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 31.446263074874878s
+
+molecule: LiH, distance: 2.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 64.29212713241577s
+
+molecule: BeH2, distance: 2.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 64.84010910987854s
+
+molecule: BeH2, distance: 2.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+
+finished after 66.5821590423584s
+
+molecule: BeH2, distance: 2.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 2)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 2)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 2)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 2)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 2)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 23.538572072982788s
+
+molecule: H2, distance: 3.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 22.472074508666992s
+
+molecule: H2, distance: 3.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 23.118616342544556s
+
+molecule: H2, distance: 3.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 40.209009647369385s
+
+molecule: LiH, distance: 3.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 34.89996671676636s
+
+molecule: LiH, distance: 3.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 35.186455488204956s
+
+molecule: LiH, distance: 3.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 73.85489010810852s
+
+molecule: BeH2, distance: 3.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 79.969566822052s
+
+molecule: BeH2, distance: 3.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 84.64764785766602s
+
+molecule: BeH2, distance: 3.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(6,), parameter=(((0, 3),), 'D', (None, 0)))
+X(target=(0,), control=(6,))
+X(target=(2,))
+Ry(target=(4,), parameter=(((1, 2),), 'D', (None, 0)))
+X(target=(2,), control=(4,))
+QubitExcitation(target=(0, 4), control=(), parameter=(((0, 2),), 'D', (None, 0)))
+QubitExcitation(target=(2, 6), control=(), parameter=(((1, 3),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 2)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 2)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 2)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 2)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 2)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 26.031574010849s
+
+molecule: H2, distance: 4.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 26.934692859649658s
+
+molecule: H2, distance: 4.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to h2_pno_integrals.out logfile
+finished after 26.31476616859436s
+
+molecule: H2, distance: 4.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 50.062790870666504s
+
+molecule: LiH, distance: 4.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 49.19266438484192s
+
+molecule: LiH, distance: 4.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to lih_pno_integrals.out logfile
+finished after 51.12816023826599s
+
+molecule: LiH, distance: 4.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(2,), parameter=(((0, 1),), 'D', (None, 0)))
+X(target=(0,), control=(2,))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 107.04367661476135s
+
+molecule: BeH2, distance: 4.0, k: 1
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 96.06343531608582s
+
+molecule: BeH2, distance: 4.0, k: 2
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+
+Starting madness calculation with executable:  /home/home/Desktop/PLAYGROUND/vqe-analysis-paper/tequila-env/bin/pno_integrals
+output redirected to beh2_pno_integrals.out logfile
+
+finished after 96.28113150596619s
+
+molecule: BeH2, distance: 4.0, k: 3
+circuit: 
+X(target=(0,))
+Ry(target=(4,), parameter=(((0, 2),), 'D', (None, 0)))
+X(target=(0,), control=(4,))
+X(target=(2,))
+Ry(target=(6,), parameter=(((1, 3),), 'D', (None, 0)))
+X(target=(2,), control=(6,))
+QubitExcitation(target=(0, 6), control=(), parameter=(((0, 3),), 'D', (None, 0)))
+QubitExcitation(target=(2, 4), control=(), parameter=(((1, 2),), 'D', (None, 0)))
+QubitExcitation(target=(0, 2), control=(), parameter=(((0, 1),), 'D', (None, 0)))
+QubitExcitation(target=(4, 6), control=(), parameter=(((2, 3),), 'D', (None, 0)))
+X(target=(1,), control=(0,))
+X(target=(3,), control=(2,))
+X(target=(5,), control=(4,))
+X(target=(7,), control=(6,))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 0)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 0)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 0)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 0)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 0)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 1)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 1)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 1)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 1)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 1)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 1)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 1)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 1)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 1)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 1)))
+QubitExcitation(target=(0, 4, 1, 5), control=(), parameter=(((0, 2),), 'D', (None, 2)))
+QubitExcitation(target=(2, 6, 3, 7), control=(), parameter=(((1, 3),), 'D', (None, 2)))
+QubitExcitation(target=(0, 6, 1, 7), control=(), parameter=(((0, 3),), 'D', (None, 2)))
+QubitExcitation(target=(2, 4, 3, 5), control=(), parameter=(((1, 2),), 'D', (None, 2)))
+QubitExcitation(target=(0, 2, 1, 3), control=(), parameter=(((0, 1),), 'D', (None, 2)))
+QubitExcitation(target=(4, 6, 5, 7), control=(), parameter=(((2, 3),), 'D', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5), control=(), parameter=((0, 2), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4, 5, 6), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5, 6, 7), control=(), parameter=((1, 3), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2, 3, 4, 5, 6), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3, 4, 5, 6, 7), control=(), parameter=((0, 3), 'S', (None, 2)))
+FermionicExcitation(target=(2, 3, 4), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(3, 4, 5), control=(), parameter=((1, 2), 'S', (None, 2)))
+FermionicExcitation(target=(0, 1, 2), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(1, 2, 3), control=(), parameter=((0, 1), 'S', (None, 2)))
+FermionicExcitation(target=(4, 5, 6), control=(), parameter=((2, 3), 'S', (None, 2)))
+FermionicExcitation(target=(5, 6, 7), control=(), parameter=((2, 3), 'S', (None, 2)))
+
