@@ -4,21 +4,16 @@ Repository for code implementation and exact results data for the bachelor thesi
 
 The paper is (will be) accessible on eLABa platform: [here (will be)](./)
 
-Done: MAPPINGS/
-
-Done: ANSATZE/hardware/
-
-Done: examples.ipynb
-
-# WIP
-
 ## Table of contents
 
 - [Examples in the paper, not the experiment](./examples.ipynb)
-- [Experiment. Mappings](./mappings.ipynb)
-- [Experiment. Ansatze](./ansatze.ipynb)
+- [Experiment. Mappings](./MAPPINGS/)
 - [Experiment. Optimizers](./optimizers.ipynb)
-- [Tryout. On qhardware](./qhardware.ipynb)
+- Experiment. Ansatze and full runs: [Data displayed in graphs](./ANSATZE/FINAL_ALL_FULL_RUNS.ipynb), Data collected for graphs:
+  - [kUpCCGSD](./ANSATZE/kUpCCGSD-tequila-env.ipynb) - in the end of file
+  - [ADAPT-VQE](./ANSATZE/ADAPT-VQE-simulator.ipynb)
+  - [UCCSD](./ANSATZE/UCCSD-simulator.ipynb)
+  - [Graph with quantum computer data](./ANSATZE/HEA.ipynb), [Data collected from quantum computer](./ANSATZE/hardware/run.ipynb)
 
 ## Manage python environments (notes)
 
