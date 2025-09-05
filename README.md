@@ -1,8 +1,18 @@
-# VQE algorithm performance analysis on various molecules
+# ORIGINAL REPOSITORY - VQE algorithm performance analysis on various molecules
+
+----
+
+This is a very messy repository, since the thesis was mostly written in the last week before deadline. It's not changed because of academic fairness. 
+
+Check out this repository for more order and cleaner code:
+
+https://github.com/naglissul/vqe-analysis-paper-clean-code
+
+----
 
 Repository for code implementation and exact results data for the bachelor thesis "VQE algorithm performance analysis on various molecules" at Vilnius University, Software Engineering program, 2025.
 
-The paper is (will be) accessible on eLABa platform: [here (will be)](./)
+The paper is accessible on Vilnius University online library: [here](https://virtualibiblioteka.vu.lt/discovery/fulldisplay?vid=370LABT_VU:VU&search_scope=VU_ETD_PDB&tab=VU_ETD_PDB&docid=alma9913200291908452&lang=en&context=L)
 
 ## Table of contents
 
